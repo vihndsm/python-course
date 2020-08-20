@@ -72,3 +72,23 @@
 # print(a.name, a.is_open, a.product_list)
 
 ############################################################################################################
+
+# class Students:
+#     name = 'default'
+#     age = '18'
+#     major = 'IT'
+
+#     def set(self, name, age, major):
+#         self.name = name
+#         self.age = age
+#         self.major = major
+
+# Steve = Students()
+# Steve.set("Steven Schultz", 23, "English")
+# print('name:', Steve.name, 'age:', Steve.age, 'major:', Steve.major)
+# Johnny = Students()
+# Johnny.set("Jonathan Rosenberg", 24, "Biology")
+# print('name:', Johnny.name, 'age:', Johnny.age, 'major:', Johnny.major)
+# Penny = Students()
+# Penny.set("Penelope Meramveliotakis", 21, "Physics")
+# print('name:', Penny.name, 'age:', Penny.age, 'major:', Penny.major)
