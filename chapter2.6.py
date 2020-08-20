@@ -71,6 +71,37 @@
 #     a.is_open = False
 # print(a.name, a.is_open, a.product_list)
 
+# class Shop:
+#     product = 'apple'
+#     count = 1
+#     def buy_product(self, product, count):
+#         self.product = product
+#         self.count = count
+# h = ['яблоко', 'хлеб', 'чай', 'мука', 'чай', 'молоко']
+# have = Shop()
+# have.buy_product(product=input('Продукт: '), count=input('Количество: '))
+# if have.product in h:
+#   print('have')
+# else:
+#   print('sorry')
+
+# class Shop:
+#     product = 'apple'
+#     count = 1
+#     def add_products(self, product, count):
+#         self.product = input('продукты: ')
+#         self.count = input('количества: ')
+# a = Shop()
+# a.add_products(1, 4)
+# b = Shop()
+# b.add_products(1, 2)
+# c = Shop()
+# c.add_products(1, 2)
+# s = []
+# g = (s.append(a.product), s.append(b.product), s.append(c.product), )
+# # print(a.product, a.count, b.product, b.count, c.product, c.count)
+# print(s)
+
 ############################################################################################################
 
 # class Students:
@@ -92,3 +123,5 @@
 # Penny = Students()
 # Penny.set("Penelope Meramveliotakis", 21, "Physics")
 # print('name:', Penny.name, 'age:', Penny.age, 'major:', Penny.major)
+
+
