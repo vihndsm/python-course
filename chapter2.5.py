@@ -34,3 +34,30 @@
 # g = list(filter(lambda b: b%2 in a, a))
 # print(f, g)
 
+#8 g = ['poisk', 'google', 'microsoft', 'spaceX']
+# f = ['neirolink', 'FACEBOOK', 'WHATSAPP']
+# c = list(map(lambda g,f: g +' ' + f,g,f))
+# print(c)
+
+#9 a = [1,2,9,3,8,4,5,11,0,15]
+# result = map (lambda x: x*x, a)
+# print(list(result))
+
+#10 g = [1, 2, 3, 5, -2, -1, -4]
+# h = list(filter(lambda b: b < 0, g))
+# b = sum(h)
+# print(h,'\nсумма отрицательных чисел:',b, '\nабсолютное значение',abs(b))
+
+#11 c = [39.2, 36.5, 37.3, 37.8]
+# F = list(map(lambda x: x * (9/5) + 32, c))
+# print(F)
+# Celsius = [39.2, 36.5, 37.3, 37.8]
+# Fahrenheit = list(map(lambda x: (float(9)/5)*x + 32, Celsius))
+# print(Fahrenheit)
+# C = list(map(lambda x: (float(5)/9)*(x-32), Fahrenheit))
+# print(C)
+
+#12 f = [1,2,3,4,5,6,7,8,9]
+# a = list(map(lambda x : True if not x % 2 else False,f))
+# b = list(map(lambda x : x % 2 == False,f))
+# print(a,'\n', b)
