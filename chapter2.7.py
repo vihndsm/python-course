@@ -122,26 +122,6 @@
 #         print(e)
 
 
-# class House:
-#     t = 'особняк'
-#     s = '300'
-#     def area(self, t, s):
-#         self.t = input('тип дома: ')
-#         self.s = int(input('площадь дома:'))
-# class Furniture(House):
-#     locker = '2'
-#     table = '1.5'
-#     bed = '4'
-#     def set(self, locker, table, bed):
-#         self.locker = locker
-#         self.table = table
-#         self.bed = bed
-
-# b = Furniture
-# b.area(1, 'flat', 2)
-# b.set(1,2,3,4)
-# 
-
 #4 class House:
 #     t = 'default'
 #     s = '18'
