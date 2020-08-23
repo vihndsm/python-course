@@ -91,6 +91,7 @@
 #     def add_products(self, product, count):
 #         self.product = input('продукты: ')
 #         self.count = input('количества: ')
+# s =[]
 # a = Shop()
 # a.add_products(1, 4)
 # b = Shop()
@@ -99,7 +100,7 @@
 # c.add_products(1, 2)
 # s = []
 # g = (s.append(a.product), s.append(b.product), s.append(c.product), )
-# # print(a.product, a.count, b.product, b.count, c.product, c.count)
+# #print(a.product, a.count, b.product, b.count, c.product, c.count)
 # print(s)
 
 ############################################################################################################

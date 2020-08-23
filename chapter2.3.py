@@ -11,7 +11,7 @@
 # my_list = ['Taalay', 'Kirill', 'Turat', 'Umut', 'Aito', 'Adinai', 'Aleksandr']
 # while True:
 #     try:
-##         my_list.remove(user)
+##        my_list.remove(user)
 #         print('Welcome')
 #         user = input('Введите имя: ')
 #     except:
