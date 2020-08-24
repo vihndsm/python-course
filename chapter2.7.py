@@ -78,7 +78,7 @@
 # else:
 #     print('недостачно бензина!')
 
-#3 class List:
+#3class List:
 #     name = 'default'
 #     contact = 'IT'
 #     address = '18'
@@ -88,19 +88,14 @@
 #         self.address = address
 # Taalai = List()
 # Taalai.set('Taalai', 222, 'мкр Джал')
-# a=Taalai=(Taalai.name, Taalai.contact, Taalai.address)
 # Umut = List()
 # Umut.set('Umka', 111, '10 мкр')
-# b=Umut=(Umut.name, Umut.contact, Umut.address)
 # Aito = List()
 # Aito.set('Aito', 333, '3 мкр')
-# c=Aito=(Aito.name, Aito.contact, Aito.address)
 # Kirill = List()
 # Kirill.set('Kirill', 444, '4 мкр')
-# d=Kirill=(Kirill.name, Kirill.contact, Kirill.address)
 # Turat = List()
 # Turat.set('Turatbek', 555, '5 мкр')
-# e=Turat=(Turat.name, Turat.contact, Turat.address)
 # class Contactlist(List):
 #     name= 'Aito'
 #     def search_by_name(self, name):
@@ -111,15 +106,15 @@
 # for i in range(0,6):
 #     all_contact.name = str(input('name: '))
 #     if all_contact.name == 'Aito':
-#         print(c)
+#         print(Aito.name, Aito.contact, Aito.address)
 #     if all_contact.name == 'Taalai':
-#         print(a)
+#         print(Taalai.name, Taalai.contact, Taalai.address)
 #     if all_contact.name == 'Umut':
-#         print(b)
+#         print(Umut.name, Umut.contact, Umut.address)
 #     if all_contact.name == 'Kirill':
-#         print(d)
+#         print(Kirill.name, Kirill.contact, Kirill.address)
 #     if all_contact.name == 'Turat':
-#         print(e)
+#         print(Turat.name, Turat.contact, Turat.address)
 
 
 #4 class House:
@@ -140,7 +135,8 @@
 # a = Furniture()
 # a.area(1, 2)
 # a.abc(1, 2, 3)
-# print('тип дома: ', a.t, 'площадь дома: ', a.s, '\nсписок мебели внутри дома: кровать, шкаф, стол')
+# g = ['кровать', 'шкаф', 'стол']
+# print('тип дома: ', a.t, 'площадь дома: ', a.s, '\nсписок мебели внутри дома: ', g)
 # f=(a.s - (a.locker+a.table+a.bed))
 # if f > 0:
 #     print('осталось', f, 'кв.м свободных мест')
