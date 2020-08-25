@@ -116,6 +116,32 @@
 #     if all_contact.name == 'Turat':
 #         print(Turat.name, Turat.contact, Turat.address)
 
+# class List:
+#     def __init__(self, name, address, contact):
+#         self.name = name
+#         self.contact = contact
+#         self.address = address
+# Taalai = List('Taalai', 222, 'мкр Джал')
+# Umut = List('Umka', 111, '10 мкр')
+# Aito = List('Aito', 333, '3 мкр')
+# Kirill = List('Kirill', 444, '4 мкр')
+# Turat = List('Turatbek', 555, '5 мкр')
+# all = List(1,2,3)
+# for i in range(0,6):
+#     all.name=input('name: ')
+#     if all.name == 'Aito':
+#         print(Aito.name, Aito.contact, Aito.address)
+#     if all.name == 'Taalai':
+#         print(Taalai.name, Taalai.contact, Taalai.address)
+#     if all.name == 'Umut':
+#         print(Umut.name, Umut.contact, Umut.address)
+#     if all.name == 'Kirill':
+#         print(Kirill.name, Kirill.contact, Kirill.address)
+#     if all.name == 'Turat':
+#         print(Turat.name, Turat.contact, Turat.address)
+#     else:
+#         print('Такого контакта нету в списке!')
+
 
 #4 class House:
 #     t = 'default'
