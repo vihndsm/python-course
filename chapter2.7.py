@@ -1,24 +1,23 @@
-#1 class Animal:
+# class Animal:
 #     name = 'default'
 #     hunger = 5
-#     def eat(self, name, hunger):
+#     def eat(self, name):
 #         self.name = input('name: ')
-#         self.hunger = hunger
 
 # class Cat(Animal):
 #     m = 1
 #     def meow(self, m):
 #         self.m = int(input('meow: '))
 # a = Cat()
-# a.eat(1, 2)
+# a.eat(1)
 # a.meow(1)
 # class Dog(Animal):
 #     n = 1
-#     def bark(self, n):
+#     def meow(self, n):
 #         self.n = int(input('bark: '))
 # b = Dog()
-# b.eat(1, 2)
-# b.bark(1)
+# b.eat(1)
+# b.meow(1)
 
 # while a.name == 'cat':
 #     if a.m > 5:
